@@ -7,6 +7,12 @@ cd nzbget
 choco pack
 ```
 
+# Test install/uninstall
+```
+choco install nzbget --source .
+choco uninstall nzbget
+```
+
 # Push package
 
 ```
