@@ -3,19 +3,19 @@
 # Build package
 
 ```
-cd nzbget
+cd nzbgetcom
 choco pack
 ```
 
 # Test install/uninstall
 ```
-choco install nzbget --source .
-choco uninstall nzbget
+choco install nzbgetcom --source .
+choco uninstall nzbgetcom
 ```
 
 # Push package
 
 ```
 choco apikey --api-key [API_KEY] -source https://push.chocolatey.org/
-choco push nzbget.23.0.0.nupkg --source https://push.chocolatey.org/
+choco push nzbgetcom.24.1.0.nupkg --source https://push.chocolatey.org/
 ```
