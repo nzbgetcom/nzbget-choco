@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/nzbgetcom/nzbget/releases/download/v24.2/nzbget-24.2-bin-windows-setup.exe'
+$url        = 'https://github.com/nzbgetcom/nzbget/releases/download/v24.3/nzbget-24.3-bin-windows-setup.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -10,7 +10,7 @@ $packageArgs = @{
 
   softwareName  = 'nzbget'
 
-  checksum      = '1a74556f3a84a76d5acf0a45e9dee9c0fd92699d2de3fd652d51dcc596a83ae2'
+  checksum      = '6e22a91d0cbfb0e40fef73ae4c45f60b0b5bb0a81a99e3f125589d20822485ec'
   checksumType  = 'sha256'
 
   silentArgs   = '/S'
