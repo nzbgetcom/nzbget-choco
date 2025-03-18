@@ -17,7 +17,7 @@ choco uninstall nzbgetcom
 
 ```
 choco apikey --api-key [API_KEY] -source https://push.chocolatey.org/
-choco push nzbgetcom.24.7.0.nupkg --source https://push.chocolatey.org/
+choco push nzbgetcom.24.8.0.nupkg --source https://push.chocolatey.org/
 ```
 
 # Deprecate old nzbget package
